@@ -1,0 +1,605 @@
+html{
+    scroll-behavior: smooth;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+body
+{
+	background-color: black;
+	margin-right: 0px;
+	padding: 0px;
+	background-position-y: 2cm;
+	background-position-x: right;
+	background-repeat: no-repeat;
+	background-size: 25cm;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+section
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("img/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+
+/* Estilo navegador */
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: gray;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+
+nav ul
+{
+	display: flex;
+}
+
+nav ul li a
+{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #2d2a2a;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.logo
+{
+	
+	font-family: Arial;
+	color: #000000;
+	font-size: 22px;
+}
+
+
+.active
+{
+	font-weight: bold;
+	color: white;
+}
+
+/* Estilo Textos */
+.conteudo-texto p:nth-child(1)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 22px;
+
+}
+
+.conteudo-texto p:nth-child(2)
+{
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(3)
+{
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.conteudo-texto 
+{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+
+.conteudo-texto 
+{
+	position: absolute;
+	left: 8%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-texto button
+{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+	
+}
+
+.sobre-portfolio {
+	display: block;
+position: absolute;
+top: 530px;
+left: 65px;
+	background-color: black;
+	color: white;
+	width: 230px;
+	height: 70px;
+}
+
+
+.btn1
+{
+	border: 2px solid #373636;
+	color: #373636;
+	height: 30px;
+}
+
+
+button:active
+{
+	transform: scale(1.1);
+
+}
+
+/* Estilo Imagem banner sem fundo */
+
+
+
+.imgbg
+{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	bottom: 70px;
+	left: 78%;
+	top: 16%;
+	transform: translateX(-70%);
+	border-radius: 2cm;
+}
+
+
+.Sobre {
+	height: 700px;
+	background-color: black;
+}
+
+
+
+
+.conteudo-sobre
+{
+	width: 80%;
+	height:330px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	position: absolute;
+	justify-content: space-evenly;
+	align-items: center;
+	top: 23cm;
+	left: 10%;
+	
+}
+
+/* Estilo Imagem Sobre eu */
+.conteudo-sobre img
+{
+   border-radius:8cm;
+	height: 300px;
+   width: 300px;
+   
+}
+
+.texto-sobre 
+{
+	width: 550px;
+}
+
+.conteudo-sobre  p:nth-child(1)
+{
+	color: #403e3e;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+
+}
+
+.texto-sobre  p:nth-child(2)
+{
+	color: #7e7d7d;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+
+.texto-sobre p:nth-child(3)
+{
+	color: #7e7d7d;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.objectImage {
+    width: 600px;
+    height: 133px;
+    object-fit: cover;
+    position: absolute;
+	top: 35cm;
+    left: 30%;
+}
+
+.Projetos
+{
+	height: 700px;
+	background: linear-gradient(0, #120c56, #000000);
+}
+
+.stars{
+	
+	left: 30%;
+	position: absolute;
+	top: 50cm;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white,
+	100px 80px white,
+    80px 120px white,
+	370px 170px white,
+    350px 150px white,
+    500px 60px white,
+    450px 320px white,
+    400px 140px white,
+    550px 400px white,
+    300px 200px white,
+	370px 170px white,
+    350px 150px white;
+	animation: anim-stars 10s linear infinite;
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-200px);
+    }
+}
+
+.stars::after{
+	content: " ";
+	width: 3px;
+	height: 3px;
+	top:150px;
+	border-radius: 50%;
+	box-shadow: 50px 30px white,
+	  100px 80px white,
+	  80px 120px white,
+	  300px 20px white,
+	  250px 130px white,
+	  200px 50px white,
+	  150px 100px white,
+	  320px 100px white;
+  }
+
+
+
+.projetos-textos p:nth-child(1)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: white;
+	font-size:30px;
+	line-height: 50px;
+
+}
+
+.projetos-textos p:nth-child(2)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: white;
+	font-size:15px;
+	line-height: 0px;
+
+}
+
+.projetos-textos p:nth-child(3)
+{
+	font-family: calibri;
+	color: #7e7d7d;
+	
+}
+
+ .projetos-textos
+{
+	width: 500px;
+	margin: 0px 0px 0px 30px;
+
+}
+
+.colunas 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+	  .columnA,
+      .columnB,
+      .columnC{
+        border: 4px solid black;
+		color: black;
+        float: left;
+        width: 33%;
+        padding: 15px;
+        text-align: justify;
+		
+      }
+      h2{
+        color:white;
+        text-align: center;
+      }
+	  p{
+		color: white;
+		text-align: justify;
+	  }
+      @media screen and (max-width: 800px){
+
+        .columnA,
+        .columnB,
+        .columnC{
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 500px){
+
+        .columnA,
+        .columnB,
+        .columnC{
+          width: 100%;
+        }
+      }
+
+ .Hobbies
+ {
+	 height: 700px;
+	 background-color: white;
+	 background-image: url(../img/star.gif);
+	 background-size: 5cm;
+
+ }
+ 
+ .hobbies-textos p:nth-child(1)
+ {
+	 font-family: calibri;
+	 font-weight: bold;
+	 color: #3e3d3d;
+	 font-size:30px;
+	 line-height: 50px;
+ margin-top: auto;
+ margin-bottom: auto;
+ }
+ 
+  .hobbies-textos
+ {
+	 width: 500px;
+	 margin: 50px 0px 0px 50px;
+	
+ }
+
+ .box1, 
+ .box2, 
+ .box3, 
+ .box4
+{
+	float: left;
+	width: 300px;
+height: 330px;
+	padding: 15px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	flex-direction: column;
+	background: linear-gradient(0, #474a51, #000000);
+	border-radius: 2cm;
+	margin-right: 10px;
+}
+.conteudo-box 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+	color: white;
+}
+
+
+.conteudo-box img {
+	width: 220px;
+	height: 200px;
+	border: 4px solid white;
+color: white;
+}
+
+
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span
+{
+	width: 70px;
+	height: 40px;
+	background-color: black;
+	display: flex;
+	border-radius: 2cm;
+	border: 1px solid white;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+.conteudo-box span{
+	color:white;
+	text-align: center;
+	margin: 10px;
+  }
+
+
+
+.btvi,
+.btvo,
+.btle,
+.btmsc
+{
+	width: 100px;
+	height: 30px;
+	background-color: #ffffff;
+	border:none;
+	outline: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* Seção footer */
+
+footer
+{
+	background-color: #000000;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+footer p
+{
+	color: #ffffff;
+	font-family: calibri;
+	font-weight: bold;  
+	
+}
+
+
+
+footer p:nth-child(1)
+{
+
+	font-weight: bold;
+	color: white;
+	text-decoration: underline white;
+	line-height: 10px;
+	font-size: 30px;
+	
+}
+
+
+
+.posicaorc{
+	bottom: 90px;
+	position: absolute;
+}
+
+.posicaog{
+	position: absolute;
+	bottom:0%;
+	right: 57%;
+}
+.alinharrs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+
+
+.btig,
+.bttt {
+  display: flex;
+  border: 1px solid white;
+color: white;
+margin-left: 31px;
+}
+
+.imgemail,
+.imgdc{
+	border-radius: 50%;
+width: 40px;
+height: 40px;
+border: 3px solid white;
+color: white;
+}
+
+.margem{
+	margin-right: 5px;
+}
+
+.btig{
+	background-image: url(../img/instaaicon.png);
+	background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+width: 45px;
+height: 45px;
+}
+
+.bttt{
+	background-image: url(../img/social_Twitter_38.png);
+	background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border: 3px white solid;
+border-radius: 50%;
+width: 45px;
+height: 45px;
+}
+
+

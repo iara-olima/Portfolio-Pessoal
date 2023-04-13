@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="author" content="Iara Lima"/>
+<meta name="description" content="Portfolio da Iara"/>
+<meta name="keywords" content="Portfolio"/>
+<title>:: PORTFÓLIO ::</title> 
+<link rel="stylesheet" type="text/css" href="principal/estilo.css">
+</head>
+<script src="script/index.js" lang="Java"></script>
+<body background="img/bgif.gif">
+
+	<section>
+		
+		
+        <nav>
+          
+      
+            <a href="#" class="logo"> Portfólio da Iara</a>
+
+            <ul> 
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="mais.html" onclick="infoad()">Mais</a></li>
+            </ul>
+      
+        </nav>
+    
+      
+        
+
+            
+            <!-- Textos -->
+            <div class="conteudo-texto">
+            	<p>Bem Vind@</p>
+            	<p>Eu sou a Iara </p>
+            	<p>e esse é meu portfólio! ;)</p>
+    
+            	<input class="btn1" type='button' onclick='insereTexto()' value='Saiba mais' /><br/>
+            </div>
+            <div id="sobre-portfolio" class="sobre-portfolio">
+            
+            </div>
+
+
+            <!-- Carregando a imagem sem Fundo -->
+            <div-borda>
+            	 
+            	
+               <img src="img/eumain.jpg" onmouseover="mostraMiniEu(this);"
+               onmouseout="mostraEuG(this);" class="imgbg" alt="euzinha">
+            </div-borda>
+
+	</section>
+
+
+
+<div id="sobre" class="Sobre">
+    <div class="conteudo-sobre">
+    	
+    	<img src="img/k.gif">
+
+    	<div class="texto-sobre">
+
+    		<p>Sobre mim</p>
+
+    		<p>Meu nome é Iara Lima, tenho 16 anos e atualmente estou no 3° Ano cursando técnico informática no IFRO. Quando finalizar, pretendo entrar em uma faculdade de Engenharia da Computação. Também estou no nono semestre do meu curso de inglês que faço no CCAA.</p>
+    		<p>
+    		Apesar de amar muito a área de informática, também me interesso por outras, como a de música, de direito, filosofia e psicologia. Sou introvertida então gosto de ficar sozinha lendo livros, assistindo séries, etc. Mas também gosto de passar o tempo com a família e amigos. :) 
+    		</p>
+    		
+    	</div>
+    </div>
+    </div>
+    <div class="imagem">
+        
+        <img class="objectImage" src="img/gifm.gif">
+    </div>
+
+    <!-- Serviços -->
+
+    <div id="projetos" class="Projetos">
+     <div class="stars"></div>
+        <div class="projetos-textos">
+
+            <p>Projetos</p>
+            <p>Sobre alguns dos projetos que participei.</p>
+        </div>
+
+        <div class="colunas">
+            <div class="columnA">
+              <h2>1</h2>
+              <p>
+                Um dos principais projetos que já participei foi a ASM (Ação Social pela Música), que por um tempo até teve parceria com o IFRO. Era uma organização independendente com professores que davam aula de música, de graça. 
+                Participei de 2018 até 2020, onde tive que parar por causa da pandemia. Eu fazia o curso de violão e também participava da orquestra da organização que realizava apresentações pelo estado todo.
+              </p>
+            </div>
+            <div class="columnB">
+              <h2>2</h2>
+              <p>
+                Video-pesquisa: projeto desenvolvido com o fim de abranger os conhecimento sobre a associação APAE, 
+para promover o interesse e busca das pessoas em conhecer o ambiente e a história do local, descobrindo também
+suas atividades e alunos, proporcionando o acolhimento e boa vontade para que outras pessoas venham participar
+e ser voluntário no instituto.
+              </p>
+            </div>
+            <div class="columnC">
+            <h2>3</h2>
+              <p>
+                Projeto de desenvolvimento de software para uma loja de roupas intimas realizado com minhas colegas Isabelly e Maria Clara,
+ contendo aprendizado em codificação das paginas, planejamento do software e futuramente sua programação para o manuseio.
+              </p>
+
+            </div>
+        </div>
+         </div>
+    
+        <div id="hobbies" class="Hobbies">
+          <div class="hobbies-textos">
+            <p>Hobbies</p>
+          </div>
+          <div class="conteudo-box">
+            <div id="conteudo-box1" class="box1">
+              <span>Violão</span>
+
+              <img src="img/euv.jpg" onmouseover="mostraMarceline(this);"
+              onmouseout="mostraEu(this);">
+              <input class="btvi" type='button' onclick='insereTextoV()' value='Saiba Mais' /><br/>
+            </div>
+            
+
+            <div id="conteudo-box2" class="box2">
+              <span>Vôlei</span>
+            <img src="img/voleigif.gif">
+            <input class="btvo" type='button' onclick='insereTextoVolei()' value='Saiba Mais' /><br/>
+          </div>
+          <div id="conteudo-box3" class="box3">
+            <span>Leitura</span>
+            <img src="img/hp.jpg" onmouseover="mostraLivros(this);"
+            onmouseout="mostraHp(this);">
+           
+            <input class="btle" type='button' onclick='insereTextoL()' value='Saiba Mais' /><br/>
+          </div>
+          <div id="conteudo-box4" class="box4">
+            <span>Música</span>
+            <img src="img/pfgif.gif">
+            <input class="btmsc" type='button' onclick='insereTextoM()' value='Saiba Mais' /><br/>
+        </div>
+
+          </div>
+        </div>
+        
+
+    
+
+        <!-- Seção footer -->
+<footer>
+  <div class="posicaorc">
+        <p>Redes Sociais e Contato</p>
+  </div>
+  <div class="alinharrs">
+    <div class="margem">   
+            <img src="img/dc.jpg" class="imgdc"/>
+    </div>
+            <p>1∆®4#3977</p>           
+          <a href="https://instagram.com/iara.lim4?igshid=YmMyMTA2M2Y="><button class="btig"></button></a>
+          <a href="https://twitter.com/0I0010000110010"><button class="bttt"></button></a>
+          
+          </div>
+          <div class="posicaog">
+            
+          <img src="img/gmailicon.png" class="imgemail"/>
+          </div>
+          <p>oiara2131.jipr@gmail.com</p>
+     <!-- <p>1∆®4#3977</p> -->
+        </footer>
+    
+</body>
+</html>
